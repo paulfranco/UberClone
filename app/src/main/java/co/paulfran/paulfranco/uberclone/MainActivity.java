@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void redirectActivity() {
         if (ParseUser.getCurrentUser().get("riderOrDriver").equals("rider")) {
             Intent intent = new Intent(getApplicationContext(), RiderActivity.class);
-
         }
     }
 
