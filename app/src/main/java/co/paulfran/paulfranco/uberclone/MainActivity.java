@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
                         Log.i("Info", "Anonymous login failed");
                     }
                 }
-
             });
         } else {
             if (ParseUser.getCurrentUser().get("riderOrDriver") != null) {
