@@ -95,7 +95,6 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                                                    }
                                                }
                                            });
-
                                            handler.postDelayed(new Runnable() {
                                                @Override
                                                public void run() {
@@ -107,7 +106,6 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                                                }
                                            }, 6000);
                                        } else {
-
                                            Double distanceOneDP = (double) Math.round(distanceInMiles * 10) / 10;
                                            infoTextView.setText("Your Driver is" + distanceOneDP.toString() + " miles away");
 
@@ -203,9 +201,7 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                 }
             }
         }
-
     }
-
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == 1) {
