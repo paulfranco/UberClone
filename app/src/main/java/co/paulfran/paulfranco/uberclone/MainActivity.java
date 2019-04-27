@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), RiderActivity.class);
         }
     }
-
     public void getStarted(View view) {
 
         Switch userTypeSwitch = (Switch) findViewById(R.id.userTypeSwitch);
